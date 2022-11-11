@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font: 16px sans-serif;
+  background-color: #0d1117;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  float: left;
+  padding: 30px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search {
+  margin-bottom: 30px;
+  border: 1px solid #cecece;
+}
+
+.search input {
+  font-size: 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.user-info img {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.username {
+  padding-top: 35px;
+}
+
+.username a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.repos-info li {
+  padding: 5px;
+  color: #fff;
+}
+
+.loading {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  color: #fff;
+}
+
+.actions,
+.repos,
+.starred {
+  float: left;
+  width: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.repos,
+.starred {
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  text-transform: uppercase;
+  width: 48%;
+  background-color: #fff;
+}
+
+.repos li,
+.starred li {
+  padding: 10px 0;
+}
+
+.repos li + li,
+.starred li + li {
+  border-top: 1px solid #1b2431;
 }
