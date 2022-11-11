@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github-api-app/static/css/main.b8ec8700.css",
+    "main.js": "/github-api-app/static/js/main.f1595195.js",
+    "index.html": "/github-api-app/index.html",
+    "main.b8ec8700.css.map": "/github-api-app/static/css/main.b8ec8700.css.map",
+    "main.f1595195.js.map": "/github-api-app/static/js/main.f1595195.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8ec8700.css",
+    "static/js/main.f1595195.js"
+  ]
+}
